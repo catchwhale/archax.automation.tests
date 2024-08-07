@@ -1,4 +1,4 @@
-# QA Archax CryptoUI Web Automation
+# QA Archax CryptoE2E Web Automation
 
 Welcome to QA Archax Automation.
 
