@@ -44,8 +44,6 @@ After the cloning of this repository, please run "npm install" on windows and "s
 
 To run the application, there are few ways to perform.
 
-To run the application, there are few ways to perform.
-
 For UI view, just send the command
 "npm run cy:open".
 For details on the script, please check the package.json on script section.
