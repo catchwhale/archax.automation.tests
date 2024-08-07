@@ -6,9 +6,9 @@ Welcome to QA Archax Automation.
 
 - e2e - contains Functional test cases
 
-- fixtures - contains credentials
+- integration - contains websocket test cases
 
-- plugins - deals with operations outside the application under tests (i.e, faker, cypress-mochawesome-reporter, cypress-slack-reporter)
+- plugins - deals with operations outside the application under tests (i.e, faker, cypress-mochawesome-reporter)
 
 - support - contains the custom commands and function libraries to support the automation
 
@@ -45,6 +45,7 @@ After the cloning of this repository, please run "npm install" on windows and "s
 To run the application, there are few ways to perform.
 
 To run the application, there are few ways to perform.
+
 For UI view, just send the command
 "npm run cy:open".
 For details on the script, please check the package.json on script section.
@@ -52,3 +53,5 @@ For details on the script, please check the package.json on script section.
 For headless view,
 
 Run all specs
+
+"npm run test:headles"

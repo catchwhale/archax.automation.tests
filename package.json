@@ -1,0 +1,22 @@
+{
+  "name": "crypto_e2e",
+  "version": "1.0.0",
+  "description": "This automation contains the Archax Crypto currency Web testing",
+  "main": "index.js",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.13.2",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-multi-reporters": "^1.6.4"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "npx cypress run",
+    "test:headless": "npx cypress run",
+    "test:open": "npx cypress open"
+  },
+  "dependencies": {
+    "@cypress/env-or-json-file": "^2.0.0",
+    "ws": "^8.18.0"
+  }
+}
