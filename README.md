@@ -4,7 +4,7 @@ Welcome to QA Archax Automation.
 
 ## Folder Structure
 
-- e2e - contains Functional test cases
+- e2e - contains UI and API Functional test cases
 
 - integration - contains websocket test cases
 
